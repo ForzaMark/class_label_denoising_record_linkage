@@ -1,0 +1,32 @@
+[
+    {
+        "teacher": "rf",
+        "detector": "conf_learn",
+        "proportion": 1.6899491038802852
+    },
+    {
+        "teacher": "rf",
+        "detector": "fkdn",
+        "proportion": 1.2368656769539836
+    },
+    {
+        "teacher": "svm",
+        "detector": "conf_learn",
+        "proportion": 2.9883914775961617
+    },
+    {
+        "teacher": "svm",
+        "detector": "fkdn",
+        "proportion": 1.7275208541645908
+    },
+    {
+        "teacher": "tree",
+        "detector": "conf_learn",
+        "proportion": 1.8471206817835946
+    },
+    {
+        "teacher": "tree",
+        "detector": "fkdn",
+        "proportion": 0.9452988006763029
+    }
+]

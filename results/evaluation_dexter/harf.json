@@ -1,0 +1,47 @@
+[
+  {
+    "dataset": "dexter_rf_corrupted",
+    "detector": "harf",
+    "noise_rate": 0.0952,
+    "time": "12.4208654205004",
+    "cleaning": {
+      "accuracy": 0.9249,
+      "precision": 0.625,
+      "recall": 0.5292,
+      "f1": 0.5731,
+      "f05": 0.6032,
+      "pon": 0.5298,
+      "fp_proportion": 10.0223
+    }
+  },
+  {
+    "dataset": "dexter_svm_corrupted",
+    "detector": "harf",
+    "noise_rate": 0.1766,
+    "time": "11.3248612364133",
+    "cleaning": {
+      "accuracy": 0.8418,
+      "precision": 0.6568,
+      "recall": 0.2189,
+      "f1": 0.3284,
+      "f05": 0.4691,
+      "pon": 0.4802,
+      "fp_proportion": 1.4508
+    }
+  },
+  {
+    "dataset": "dexter_tree_corrupted",
+    "detector": "harf",
+    "noise_rate": 0.1191,
+    "time": "13.1411157011986",
+    "cleaning": {
+      "accuracy": 0.9256,
+      "precision": 0.7108,
+      "recall": 0.6328,
+      "f1": 0.6695,
+      "f05": 0.6937,
+      "pon": 0.5917,
+      "fp_proportion": 10.6043
+    }
+  }
+]

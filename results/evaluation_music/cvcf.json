@@ -1,0 +1,47 @@
+[
+  {
+    "dataset": "music_most_values_rf_corrupted",
+    "detector": "cvcf",
+    "noise_rate": 0.0203,
+    "time": "2.81579634745916",
+    "cleaning": {
+      "accuracy": 0.9902,
+      "precision": 0.7386,
+      "recall": 0.7883,
+      "f1": 0.7626,
+      "f05": 0.7480,
+      "pon": 0.7183,
+      "fp_proportion": 29.9158
+    }
+  },
+  {
+    "dataset": "music_most_values_svm_corrupted",
+    "detector": "cvcf",
+    "noise_rate": 0.0529,
+    "time": "1.81739698251088",
+    "cleaning": {
+      "accuracy": 0.9546,
+      "precision": 0.6519,
+      "recall": 0.3031,
+      "f1": 0.4138,
+      "f05": 0.5299,
+      "pon": 0.5991,
+      "fp_proportion": 4.6881
+    }
+  },
+  {
+    "dataset": "music_most_values_tree_corrupted",
+    "detector": "cvcf",
+    "noise_rate": 0.0321,
+    "time": "2.92432279984156",
+    "cleaning": {
+      "accuracy": 0.9898,
+      "precision": 0.8213,
+      "recall": 0.8604,
+      "f1": 0.8403,
+      "f05": 0.8288,
+      "pon": 0.7892,
+      "fp_proportion": 35.2428
+    }
+  }
+]

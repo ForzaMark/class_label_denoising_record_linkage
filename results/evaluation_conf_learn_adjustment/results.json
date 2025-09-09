@@ -1,0 +1,314 @@
+[
+  [
+    {
+      "dataset": "music_most_values_rf",
+      "k": "baseline",
+      "recall": 0.2662017349889437,
+      "f2": 0.30503254979924377
+    },
+    {
+      "dataset": "music_most_values_rf",
+      "k": 2,
+      "recall": 0.5420989964279639,
+      "f2": 0.5785709098830877
+    },
+    {
+      "dataset": "music_most_values_rf",
+      "k": 3,
+      "recall": 0.6482394965130124,
+      "f2": 0.6606455639149881
+    },
+    {
+      "dataset": "music_most_values_rf",
+      "k": 4,
+      "recall": 0.6557237625446505,
+      "f2": 0.6621663403071215
+    },
+    {
+      "dataset": "music_most_values_rf",
+      "k": 5,
+      "recall": 0.6720530702500426,
+      "f2": 0.6730834752981261
+    },
+    {
+      "dataset": "music_most_values_rf",
+      "k": 8,
+      "recall": 0.7273345807110053,
+      "f2": 0.7020193728451815
+    },
+    {
+      "dataset": "music_most_values_rf",
+      "k": 10,
+      "recall": 0.7540398026875319,
+      "f2": 0.7081922167550643
+    }
+  ],
+  [
+    {
+      "dataset": "wdc_almser_most_values_rf",
+      "k": "baseline",
+      "recall": 0.040229885057471264,
+      "f2": 0.04886561954624782
+    },
+    {
+      "dataset": "wdc_almser_most_values_rf",
+      "k": 2,
+      "recall": 0.06465517241379311,
+      "f2": 0.07864383082838168
+    },
+    {
+      "dataset": "wdc_almser_most_values_rf",
+      "k": 3,
+      "recall": 0.040229885057471264,
+      "f2": 0.046511627906976744
+    }
+  ],
+  [
+    {
+      "dataset": "dexter_rf",
+      "k": "baseline",
+      "recall": 0.2688818955942244,
+      "f2": 0.30320425842813903
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 2,
+      "recall": 0.2725842280636801,
+      "f2": 0.30728297161936563
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 3,
+      "recall": 0.283598667160311,
+      "f2": 0.3175985239546406
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 4,
+      "recall": 0.2862828582006664,
+      "f2": 0.3204517198508081
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 5,
+      "recall": 0.3145131432802666,
+      "f2": 0.34780650576265637
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 6,
+      "recall": 0.3282117734172529,
+      "f2": 0.3604464412775214
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 8,
+      "recall": 0.3450573861532766,
+      "f2": 0.3747034937482411
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 10,
+      "recall": 0.38652350981118105,
+      "f2": 0.40949205726613064
+    },
+    {
+      "dataset": "dexter_rf",
+      "k": 20,
+      "recall": 0.4222510181414291,
+      "f2": 0.42417480241748023
+    }
+  ],
+  [
+    {
+      "dataset": "music_most_values_svm",
+      "k": "baseline",
+      "recall": 0.03954372623574144,
+      "f2": 0.04856257879745358
+    },
+    {
+      "dataset": "music_most_values_svm",
+      "k": 2,
+      "recall": 0.15310519645120405,
+      "f2": 0.17927902524450512
+    }
+  ],
+  [
+    {
+      "dataset": "wdc_almser_most_values_svm",
+      "k": "baseline",
+      "recall": 0.058569667077681874,
+      "f2": 0.07181735712125793
+    },
+    {
+      "dataset": "wdc_almser_most_values_svm",
+      "k": 2,
+      "recall": 0.07829839704069051,
+      "f2": 0.09537398618203664
+    },
+    {
+      "dataset": "wdc_almser_most_values_svm",
+      "k": 3,
+      "recall": 0.08754623921085081,
+      "f2": 0.09857004026100236
+    }
+  ],
+  [
+    {
+      "dataset": "dexter_svm",
+      "k": "baseline",
+      "recall": 0.07773711799030758,
+      "f2": 0.09427173287276915
+    },
+    {
+      "dataset": "dexter_svm",
+      "k": 2,
+      "recall": 0.07506675897537335,
+      "f2": 0.09104212647538625
+    },
+    {
+      "dataset": "dexter_svm",
+      "k": 3,
+      "recall": 0.0799129660765503,
+      "f2": 0.09668309960273776
+    },
+    {
+      "dataset": "dexter_svm",
+      "k": 4,
+      "recall": 0.08703392344970824,
+      "f2": 0.10498437164467563
+    },
+    {
+      "dataset": "dexter_svm",
+      "k": 5,
+      "recall": 0.11512214419938681,
+      "f2": 0.13725443954437186
+    },
+    {
+      "dataset": "dexter_svm",
+      "k": 6,
+      "recall": 0.13693007615468303,
+      "f2": 0.16154438532623916
+    },
+    {
+      "dataset": "dexter_svm",
+      "k": 8,
+      "recall": 0.14973790920779348,
+      "f2": 0.1756869662086892
+    },
+    {
+      "dataset": "dexter_svm",
+      "k": 10,
+      "recall": 0.1541885075660172,
+      "f2": 0.1803709231427811
+    }
+  ],
+  [
+    {
+      "dataset": "music_most_values_tree",
+      "k": "baseline",
+      "recall": 0.37800687285223367,
+      "f2": 0.42178894285515095
+    },
+    {
+      "dataset": "music_most_values_tree",
+      "k": 2,
+      "recall": 0.6121003852962615,
+      "f2": 0.6515185103081357
+    },
+    {
+      "dataset": "music_most_values_tree",
+      "k": 3,
+      "recall": 0.7289388732687702,
+      "f2": 0.7485830392471393
+    },
+    {
+      "dataset": "music_most_values_tree",
+      "k": 4,
+      "recall": 0.6452150369676143,
+      "f2": 0.6720465096099614
+    },
+    {
+      "dataset": "music_most_values_tree",
+      "k": 5,
+      "recall": 0.603457252941789,
+      "f2": 0.629727027731896
+    }
+  ],
+  [
+    {
+      "dataset": "wdc_almser_most_values_tree",
+      "k": "baseline",
+      "recall": 0.2857142857142857,
+      "f2": 0.3288009888751545
+    },
+    {
+      "dataset": "wdc_almser_most_values_tree",
+      "k": 2,
+      "recall": 0.35875402792696026,
+      "f2": 0.4049466537342386
+    },
+    {
+      "dataset": "wdc_almser_most_values_tree",
+      "k": 3,
+      "recall": 0.35875402792696026,
+      "f2": 0.3793730122671513
+    }
+  ],
+  [
+    {
+      "dataset": "dexter_tree",
+      "k": "baseline",
+      "recall": 0.4214017882895875,
+      "f2": 0.4593111904050804
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 2,
+      "recall": 0.417940582636285,
+      "f2": 0.45561739458541645
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 3,
+      "recall": 0.4261609460628786,
+      "f2": 0.4623906614298903
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 4,
+      "recall": 0.43279492356504184,
+      "f2": 0.4684231885867699
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 5,
+      "recall": 0.4478655898471301,
+      "f2": 0.4813310807669059
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 6,
+      "recall": 0.4367608883761177,
+      "f2": 0.47002312479630004
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 8,
+      "recall": 0.45111047014710126,
+      "f2": 0.4816234776048162
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 10,
+      "recall": 0.47187770406691665,
+      "f2": 0.4998166931443236
+    },
+    {
+      "dataset": "dexter_tree",
+      "k": 20,
+      "recall": 0.5322324776463802,
+      "f2": 0.5331705625704296
+    }
+  ]
+]

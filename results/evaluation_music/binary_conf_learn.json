@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "music_most_values_rf_corrupted",
+    "model": "rf",
+    "detector": "binary_conf_learn",
+    "noise_rate": 0.020648869101455466,
+    "time": 692.7201988697052,
+    "cleaning": {
+      "accuracy": 0.971588197404123,
+      "precision": 0.3923945225758697,
+      "recall": 0.6854695328915468,
+      "f1": 0.4990879670491321,
+      "f05": 0.4290859790768733,
+      "pon": 0.37174565347441424,
+      "fp_proportion": 21.34459477848409
+    }
+  },
+  {
+    "dataset": "music_most_values_svm_corrupted",
+    "model": "svm",
+    "detector": "binary_conf_learn",
+    "noise_rate": 0.053102336556207844,
+    "time": 467.94510436058044,
+    "cleaning": {
+      "accuracy": 0.9469977872635826,
+      "precision": 0.5016899504281208,
+      "recall": 0.27986927283011753,
+      "f1": 0.3593012466212127,
+      "f05": 0.4330448312749198,
+      "pon": 0.448587613871913,
+      "fp_proportion": 10.512587313211395
+    }
+  },
+  {
+    "dataset": "music_most_values_tree_corrupted",
+    "model": "tree",
+    "detector": "binary_conf_learn",
+    "noise_rate": 0.03209302170350667,
+    "time": 631.0089089870453,
+    "cleaning": {
+      "accuracy": 0.968624532338325,
+      "precision": 0.5079143046455128,
+      "recall": 0.7174500831946755,
+      "f1": 0.5947670158196474,
+      "f05": 0.5394226559079252,
+      "pon": 0.4758212829420061,
+      "fp_proportion": 33.59104725663838
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "dataset": "../datasets/music/music_most_values_rf_corrupted.csv",
+        "detector": "conf_learn",
+        "noise_rate": 0.020642194180136103,
+        "cleaning": {
+            "accuracy": 0.983119123983326,
+            "precision": 0.7651764705882353,
+            "recall": 0.26289409862570734,
+            "f1": 0.3913357400722022,
+            "f05": 0.5536261491317671,
+            "pon": 0.7445342764080992,
+            "fp_proportion": 2.9605312375315864
+        }
+    },
+    {
+        "dataset": "../datasets/music/music_most_values_knn_corrupted.csv",
+        "detector": "conf_learn",
+        "noise_rate": 0.05742434811049665,
+        "cleaning": {
+            "accuracy": 0.9430862833704348,
+            "precision": 0.5307105580088318,
+            "recall": 0.07683366267581077,
+            "f1": 0.1342336396405544,
+            "f05": 0.24328303275671698,
+            "pon": 0.4732862098983352,
+            "fp_proportion": 0.5250300035075037
+        }
+    },
+    {
+        "dataset": "../datasets/music/music_most_values_tree_corrupted.csv",
+        "detector": "conf_learn",
+        "noise_rate": 0.0313821425829943,
+        "cleaning": {
+            "accuracy": 0.9779460599608182,
+            "precision": 0.7958924412449714,
+            "recall": 0.39976603211740935,
+            "f1": 0.5322101090188305,
+            "f05": 0.6642516345644107,
+            "pon": 0.7645102986619771,
+            "fp_proportion": 1.4303098465425432
+        }
+    },
+    {
+        "dataset": "../datasets/music/music_most_values_naive_bayes_corrupted.csv",
+        "detector": "conf_learn",
+        "noise_rate": 0.050148683872388855,
+        "cleaning": {
+            "accuracy": 0.9488767776149839,
+            "precision": 0.2582781456953642,
+            "recall": 0.010382004525489152,
+            "f1": 0.019961612284069098,
+            "f05": 0.044719642242862054,
+            "pon": 0.20812946182297537,
+            "fp_proportion": 0.679310057303542
+        }
+    },
+    {
+        "dataset": "../datasets/music/music_most_values_svm_corrupted.csv",
+        "detector": "conf_learn",
+        "noise_rate": 0.05319912291533863,
+        "cleaning": {
+            "accuracy": 0.9462134840085572,
+            "precision": 0.42028985507246375,
+            "recall": 0.029109159347553325,
+            "f1": 0.05444731283736212,
+            "f05": 0.11397131067007271,
+            "pon": 0.3670907321571251,
+            "fp_proportion": 1.2789379051199012
+        }
+    },
+    {
+        "dataset": "../datasets/music/music_most_values_rf_corrupted.csv",
+        "detector": "fkdn",
+        "noise_rate": 0.020642194180136103,
+        "cleaning": {
+            "accuracy": 0.9886125842291634,
+            "precision": 0.6969740019889189,
+            "recall": 0.7932093775262733,
+            "f1": 0.7419842710223835,
+            "f05": 0.7143065140793803,
+            "pon": 0.6763318078087828,
+            "fp_proportion": 12.834466703773998
+        }
+    },
+    {
+        "dataset": "../datasets/music/music_most_values_knn_corrupted.csv",
+        "detector": "fkdn",
+        "noise_rate": 0.05742434811049665,
+        "cleaning": {
+            "accuracy": 0.9520673900056403,
+            "precision": 0.6225862068965518,
+            "recall": 0.419737300941532,
+            "f1": 0.5014233145872388,
+            "f05": 0.5677137376977015,
+            "pon": 0.5651618587860551,
+            "fp_proportion": 2.0687523647723647
+        }
+    }
+]
