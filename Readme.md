@@ -23,7 +23,7 @@ Before running the pipeline, make sure the following are installed and available
    * `NoiseFiltersR` (see [CRAN](https://cran.r-project.org/web/packages/NoiseFiltersR/index.html))
 
 3. **Obtain the datasets:**
-   Download the following files and place them in the appropriate folder in the `dataset` directory:
+   Download the following files and place them in the appropriate folder in the `dataset` directory (see [Datasets](https://git.informatik.uni-leipzig.de/dbs/metadatatransferlearning/-/tree/main/meta_tl#datasets)):
 
    * `dexter.csv`
    * `music_train.csv`
